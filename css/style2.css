@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #3a8ef8, #8a5cd1);
+    padding-top: 20px;
+}
+
+#headerSection {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 10px;;
+}
+hr{
+    margin-top: 15px;
+}
+#bodySection {
+    max-width: 600px;
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.input-group input {
+    width: 48%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+    margin-left: 6px;
+}
+
+.input-group input:focus {
+    border-color: #3a8ef8;
+    outline: none;
+}
+
+input[type="text"], input[type="number"], input[type="password"], select, button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus, select:focus {
+    border-color: #3a8ef8;
+    outline: none;
+}
+
+input[type="file"]:focus{
+    margin-right:10px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #3a8ef8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3572e2;
+}
+
+a {
+    margin-top: 10px;
+    color: #3a8ef8;
+    text-decoration: none;
+    display: inline;
+}
+.select-role-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.select-role-group label {
+    font-size: 1em;
+    margin-right: 10px; 
+
+}
+
+.select-role-group select {
+    width: 50%; 
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+    transition: border-color 0.3s ease;
+    margin-top :12px;
+}
+
+.select-role-group select:focus {
+    border-color: #3a8ef8;
+    outline: none;
+}
+
+
+p.already-user {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.already-user span {
+    margin-right: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #bodySection {
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    .input-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #headerSection {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .input-group input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

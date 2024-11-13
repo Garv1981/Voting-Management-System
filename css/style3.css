@@ -1,0 +1,114 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3a8ef8, #8a5cd1);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ansh {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007BFF;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#one {
+    margin-right: auto;
+}
+
+#two {
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: black;
+    text-align: center;
+    margin: 20px 0;
+}
+
+hr {
+    width: 80%;
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+#Profile{
+    color:black;
+    background-color: white;
+    height: 280px;
+    width: 50%;
+    padding: 10px;
+    border-radius:10px;
+    border:2px solid black;
+    float :left;
+    padding : 20px;
+}
+
+#Profile img {
+    object-fit: cover;
+    display: block;
+    margin: 0 auto ; 
+    margin-top :4px;
+    
+}
+
+#Group{
+    color:black;
+    background-color: white;
+    height: 60vh;
+    width: 60vw;
+    padding: 10px;
+    border-radius:10px;
+    border:2px solid black;
+    float:right;
+}
+.container{
+    display: flex;
+    gap:20%;
+}
+
+#votebtn{
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s
+}
+
+#voted{
+    padding: 5px;
+    font-size: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+
